@@ -1,0 +1,5 @@
+{
+  "name": "bitwise",
+  "source-directories": ["source"],
+  "test-directories": ["tests"]
+}
