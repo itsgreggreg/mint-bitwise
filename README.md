@@ -10,7 +10,7 @@ Add this to your application's `mint.json`:
 "dependencies": {
   "bitwise": {
     "repository": "https://gitlab.com/greggreg/mint-bitwise",
-    "constraint": "1.0.0 <= v < 2.0.0"
+    "constraint": "0.2.0 <= v < 1.0.0"
   }
 }
 ```
