@@ -9,8 +9,8 @@ Add this to your application's `mint.json`:
 ```json
 "dependencies": {
   "bitwise": {
-    "repository": "https://gitlab.com/greggreg/mint-bitwise",
-    "constraint": "0.2.0 <= v < 1.0.0"
+    "repository": "https://github.com/itsgreggreg/mint-bitwise",
+    "constraint": "0.4.0 <= v < 1.0.0"
   }
 }
 ```
