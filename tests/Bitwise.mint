@@ -32,22 +32,22 @@ suite "Bitwise Operations" {
   }
 
   test "leftShift" {
-    Bitwise.leftShift(9, 2) == 36
+    Bitwise.leftShift(2, 9) == 36
   }
 
   test "rightShift" {
-    Bitwise.rightShift(9, 2) == 2
+    Bitwise.rightShift(2, 9) == 2
   }
 
   test "rightShift" {
-    Bitwise.rightShift(-9, 2) == -3
+    Bitwise.rightShift(2, -9) == -3
   }
 
   test "zeroFillRightShift" {
-    Bitwise.zeroFillRightShift(19, 2) == 4
+    Bitwise.zeroFillRightShift(2, 19) == 4
   }
 
   test "zeroFillRightShift" {
-    Bitwise.zeroFillRightShift(-19, 2) == 1073741819
+    Bitwise.zeroFillRightShift(2, -19) == 1073741819
   }
 }

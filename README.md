@@ -20,17 +20,19 @@ Add this to your application's `mint.json`:
 This package adds a `Bitwise` module with functions for bitwise operations.
 
 ```mint
+/* Argument order for these doesn't matter */
 Bitwise.and(15, 9) == 9
 
 Bitwise.or(9, 15) == 15
 
 Bitwise.not(15) == -16
 
-Bitwise.leftShift(9, 2) == 36
+/* Ammount to shift goes first, input number goes second. */
+Bitwise.leftShift(2, 9) == 36
 
-Bitwise.rightShift(9, 2) == 2
+Bitwise.rightShift(2, 9) == 2
 
-Bitwise.zeroFillRightShift(19, 2) == 4
+Bitwise.zeroFillRightShift(2, 19) == 4
 ```
 
 ## Implementation Details
